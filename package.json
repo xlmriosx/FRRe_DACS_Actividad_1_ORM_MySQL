@@ -1,7 +1,7 @@
 {
   "name": "Actividad1_ORM_MySQL",
   "version": "1.0.0",
-  "description": "",
+  "description": "new readme",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,17 @@
   "dependencies": {
     "body-parser": "^1.20.0",
     "express": "^4.17.3",
+    "mysql": "^2.18.1",
     "mysql2": "^2.3.3",
     "sequelize": "^6.18.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xlmriosx/FRRe_DACS_Actividad_1_ORM_MySQL.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xlmriosx/FRRe_DACS_Actividad_1_ORM_MySQL/issues"
+  },
+  "homepage": "https://github.com/xlmriosx/FRRe_DACS_Actividad_1_ORM_MySQL#readme"
 }

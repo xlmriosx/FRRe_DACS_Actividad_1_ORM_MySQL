@@ -1,13 +1,15 @@
 const Sequelize = require('sequelize');
 
 const PetModel = require('./models/Pet');
+const ReportModel = require('./models/Report');
 
-const sequelize = new Sequelize('test', 'xlmriosx', 'root123!', {
+const sequelize = new Sequelize('nodejstest', 'Admin', 'Admin', {
     host: 'localhost',
     dialect: 'mysql'/* one of 'mysql' | 'mariadb' | 'postgres' | 'mssql' */
 });
 
 const Pet = PetModel(sequelize, Sequelize);
+const Report = ReportModel(sequelize, Sequelize);
 
 sequelize.sync({ force: false })
 .then(() => {
@@ -15,5 +17,6 @@ sequelize.sync({ force: false })
 })
 
 module.exports = {
-    Pet
+    Pet,
+    Report
 }
