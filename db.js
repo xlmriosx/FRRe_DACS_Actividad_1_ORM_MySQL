@@ -1,19 +1,23 @@
 const Sequelize = require('sequelize');
 
-const PetModel = require('./models/Pet');
+const OwnerModel = require('./models/Owner');
 
-const sequelize = new Sequelize('test', 'xlmriosx', 'root123!', {
-    host: 'localhost',
-    dialect: 'mysql'/* one of 'mysql' | 'mariadb' | 'postgres' | 'mssql' */
+//DataBaseName - UserName - Password
+const sequelize = new Sequelize('animals_db','root','1234',{
+    host: "localhost",
+    port: 3306,
+    dialect: "mysql"
 });
 
-const Pet = PetModel(sequelize, Sequelize);
 
-sequelize.sync({ force: false })
-.then(() => {
-    console.log('Syncronized tables')
+const Owner = OwnerModel(sequelize, Sequelize);
+
+
+sequelize.sync({force: false})
+.then(()=>{
+    console.log('Tablas creadas')
 })
 
 module.exports = {
-    Pet
+    Owner
 }
