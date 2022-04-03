@@ -2,6 +2,7 @@ const Sequelize = require('sequelize');
 
 const PetModel = require('./models/Pet');
 const ReportModel = require('./models/Report');
+const MedicalHistoricalModel = require('./models/Medical_Historical');
 
 const sequelize = new Sequelize('nodejstest', 'Admin', 'Admin', {
     host: 'localhost',
@@ -10,6 +11,7 @@ const sequelize = new Sequelize('nodejstest', 'Admin', 'Admin', {
 
 const Pet = PetModel(sequelize, Sequelize);
 const Report = ReportModel(sequelize, Sequelize);
+const MedicalHistorical = MedicalHistoricalModel(sequelize, Sequelize);
 
 sequelize.sync({ force: false })
 .then(() => {
@@ -18,5 +20,6 @@ sequelize.sync({ force: false })
 
 module.exports = {
     Pet,
-    Report
+    Report,
+    MedicalHistorical
 }
