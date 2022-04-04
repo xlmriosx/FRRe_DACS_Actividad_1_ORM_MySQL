@@ -12,10 +12,9 @@ las instrucciones para desplegar instalar el proyecto.
 Aqui presentamos que cosas necesitas para correr el backend. 
 ```
 - Mysql 8.0
-- JavaScript
-- npm
-- NodeJs
-- Postman  
+- npm 8.1.2
+- NodeJs v16.13.2
+- Postman   
 ```
 
 ## Instalación :computer:
@@ -27,8 +26,8 @@ Aqui presentamos que cosas necesitas para correr el backend.
 - [MYSQL 8.0](https://www.postgresql.org/download/) - Base de datos
 - [Dbeaver-ce](https://dbeaver.io/download/) - Herramienta de administracion de datos 
 - [DbVisualizer](https://www.dbvis.com/) - Herramienta de administracion de datos 
-- [JavaScript](https://www.oracle.com/ar/java/technologies/javase/jdk11-archive-downloads.html) - Lenguaje de programacion
-- [NodeJS](https://spring.io/projects/spring-boot) - Framework
+- [JavaScript](https://www.javascript.com/) - Lenguaje de programacion
+- [NodeJS](https://nodejs.org/es/) - Framework
 
 ## Dependencias :neckbeard:
 
