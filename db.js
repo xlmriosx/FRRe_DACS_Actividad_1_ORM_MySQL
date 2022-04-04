@@ -24,6 +24,9 @@ sequelize.sync({ force: false })
 });
 
 Pet.hasOne(Certificate_Adoption,  {foreignKey: 'pet'});
+// Report.hasMany(MedicalHistorical, {foreignKey: 'id_historical'});
+// Owner.hasOne(Pet, { foreignKey: 'owner'});
+// Owner.hasOne(Certificate_Adoption, {foreignKey: 'owner'});
 //Certificate_Adoption.hasOne(Pet,  {foreignKey: 'pet'})
 
 module.exports = {

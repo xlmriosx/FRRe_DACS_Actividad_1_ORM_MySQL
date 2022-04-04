@@ -13,6 +13,7 @@ module.exports = (sequelize, type) => {
             
 
         },
+        owner: type.INTEGER,
         date_adoption: {
             type: type.DATE,
             defaultValue: sequelize.literal('CURRENT_TIMESTAMP'),
