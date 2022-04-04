@@ -30,15 +30,24 @@ Aqui presentamos que cosas necesitas para correr el backend.
 - [NodeJS](https://nodejs.org/es/) - Framework
 
 ## Dependencias :neckbeard:
-
-
-
-
-
+```
+- body-parser: 1.20.0,
+- express: 4.17.3,
+- mysql2: 2.3.3,
+- sequelize: 6.18.0  
+```
 ### Diagrama de clases (Obviando metodos)
 ![Diagrama de clases]()
 ### Capa de datos (Modelo entidad relacion)
-![Modelo entidad relacion](https://i.imgur.com/t3l1Xqw.png)
+![Modelo entidad relacion]()
+
+## Despliegue :warning:
+
+1) Clonar el repositorio
+2) Extraer el archivo comprimido
+3) Ir a la carpeta raiz, abrir la terminar y ejecutar el codigo "node index.js"
+4) Una vez levantamos el servidor abrir Postman
+5) Ahora podes probar los endpoints que dejamos el paquete de postman
 
 ## Autores :star_struck:
 
