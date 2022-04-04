@@ -1,3 +1,5 @@
+const dataTypes = require("sequelize/lib/data-types")
+
 module.exports = (sequelize, type) => {
     return sequelize.define('pet', {
         id_pet: {
@@ -5,6 +7,7 @@ module.exports = (sequelize, type) => {
             primaryKey: true,
             autoIncrement: true
         },
+        owner: type.INTEGER,
         name: type.STRING,
         birthday: {
             type: type.DATE,

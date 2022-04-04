@@ -5,7 +5,9 @@ module.exports = (sequelize, type) => {
             primaryKey: true,
             autoIncrement: true
         },
+        id_historical: type.INTEGER,
         info_report: type.STRING,
+
         report_date: type.DATE
         
     })
