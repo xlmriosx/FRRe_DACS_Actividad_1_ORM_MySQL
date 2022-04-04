@@ -26,7 +26,7 @@ Aqui presentamos que cosas necesitas para correr el backend.
 
 - [MYSQL 8.0](https://www.postgresql.org/download/) - Base de datos
 - [Dbeaver-ce](https://dbeaver.io/download/) - Herramienta de administracion de datos 
-- [DbVisualizer]https://www.dbvis.com/) - Herramienta de administracion de datos 
+- [DbVisualizer](https://www.dbvis.com/) - Herramienta de administracion de datos 
 - [JavaScript](https://www.oracle.com/ar/java/technologies/javase/jdk11-archive-downloads.html) - Lenguaje de programacion
 - [NodeJS](https://spring.io/projects/spring-boot) - Framework
 
