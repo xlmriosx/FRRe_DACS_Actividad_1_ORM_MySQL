@@ -11,6 +11,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
 
+// app.get('/', (req, res) => {
+//     res.send('Dato');
+// });
 
 //Estas son las rutas. req es el valor de la peticion , res el valor de la respuesta
 app.use('/api',apiRouter);
