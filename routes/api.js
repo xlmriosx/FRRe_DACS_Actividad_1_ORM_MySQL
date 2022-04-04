@@ -1,8 +1,10 @@
 const router = require('express').Router();
 
 const apiPetsRouter = require('./api/pets');
+const apiCertificate_AdoptionRouter = require('./api/certificate_adoptions');
 
 router.use('/pets', apiPetsRouter);
+router.use('/certificate_adoptions', apiCertificate_AdoptionRouter);
 
 
 module.exports = router;
